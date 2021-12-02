@@ -1,4 +1,5 @@
 #pragma once
+#include "macro.h"
 
 /*
 * @param [proc_name] name of target process
