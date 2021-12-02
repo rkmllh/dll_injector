@@ -9,7 +9,6 @@ pid_t get_pid_by_name(
 {
 	pid_t pid = 0;
 	HANDLE h_snapshot = NULL;
-	HANDLE h_process = NULL;
 	PROCESSENTRY32 process_entry_32;
 	BOOL b_found = 0;
 
