@@ -1,7 +1,6 @@
 #include <windows.h>
 #include <TlHelp32.h>
 #include "process.h"
-#include "macro.h"
 
 pid_t get_pid_by_name(
 	const char* proc_name
