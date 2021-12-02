@@ -1,7 +1,5 @@
 #pragma once
 
-typedef int pid_t;
-
 /*
 * @param [proc_name] name of target process
 */
