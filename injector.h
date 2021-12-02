@@ -6,7 +6,7 @@ typedef int pid_t;
 /*
 * @param [path_dll] path to malicious dll
 * @param [pid] pid of target process
-* @param [wait] waiting for end of thread
+* @param [b_wait] waiting for end of thread
 */
 
 int injector(
