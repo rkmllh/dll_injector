@@ -51,7 +51,10 @@ int injector(
 		handle_error("GetModuleHandleA");
 
 	h_procedure = GetProcAddress(h_kernel_library, "LoadLibraryA");
-
+	
+	if(h_procedure == NULL)
+		handle_error("LoadLibraryA");
+	
 	h_thread = CreateRemoteThread(
 		h_process,
 		NULL,		//Default sa
